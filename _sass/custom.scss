@@ -1,7 +1,19 @@
+// Main menu
+
 header div.navigation-wrapper {
     max-width: none !important;
 
     nav {
         line-height: 2;
     }
+}
+
+
+// Contact form
+
+p.contact-form { text-align: center; }
+
+#contact-form textarea {
+    resize: none;
+    height: 200px;
 }
