@@ -11,13 +11,16 @@
       <i class="fa fa-bars"></i>
     </a>
     <nav role="navigation">
-      <ul id="js-navigation-menu" class="navigation-menu show">
-        {% for page in site.pages %}
-          {% if page.title and page.main_nav != false %}
-          <li class="nav-link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </ul>
+        <ul id="js-navigation-menu" class="navigation-menu show">
+            <li class="nav-link"><a href="{{ "/" | prepend: site.baseurl }}">Inicio</a>
+            <li class="nav-link"><a href="{{ "/blog/" | prepend: site.baseurl }}">Blog</a>
+
+            {% for page in site.pages %}
+                {% if page.title and page.main_nav != false and page.hide_in_header != true %}
+                    <li class="nav-link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                {% endif %}
+            {% endfor %}
+        </ul>
     </nav>
   </div>
 </header>
