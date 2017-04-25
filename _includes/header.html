@@ -17,7 +17,7 @@
 
             {% for page in site.pages %}
                 {% if page.title and page.main_nav != false and page.hide_in_header != true %}
-                    <li class="nav-link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                    <li class="nav-link"><a href="{{ page.url | prepend: site.baseurl }}">{% if page.fa-icon %}<i class="fa fa-{{ page.fa-icon }}"></i> {% endif %}{{ page.title }}</a>
                 {% endif %}
             {% endfor %}
         </ul>

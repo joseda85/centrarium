@@ -22,7 +22,7 @@ description: >
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://josedabm.com" # the base hostname & protocol for your site
+url: "http://josedabm.local" # the base hostname & protocol for your site
 cover: "/assets/header_image.png"
 logo: "/assets/logo.png"
 
@@ -115,6 +115,6 @@ protocols:
 
     twitter_image: "/assets/logo.png"
 
-    os_repo: "https://github.com/bencentra/centrarium.com"
+    os_repo: "https://github.com/josedabm/josedabmcom"
     os_rcs_type: "git"
-    os_src: "git@github.com:bencentra/centrarium.com.git"
+    os_src: "git@github.com:josedabm/josedabmcom.git"
