@@ -6,6 +6,9 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 // Includes Bourbon, Neat, and Bitters (thanks, thoughtbot!)
 @import
+  "font-awesome/font-awesome",
+  "monokai-sublime.min",
+  "lightbox",
   "bourbon/bourbon",
   "base/base",
   "neat/neat",
