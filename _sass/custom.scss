@@ -9,6 +9,17 @@ header div.navigation-wrapper {
 }
 
 
+// Blog
+
+header.post-header {
+    padding: 0.5em 1em 1em;
+
+    .post-title {
+        text-align: center;
+    }
+}
+
+
 // Forms
 
 #contact-form, #newsletter-form {
