@@ -4,9 +4,9 @@
 
     <h3 class="footer-heading">{{ site.sitename }}</h3>
 
-    <div class="site-navigation">
+    <section class="site-navigation">
 
-      <p><strong>Secciones</strong></p>
+      <div class="section-name">Secciones</div>
       <ul class="pages">
         {% for page in site.pages %}
         {% if page.title and page.main_nav != false and page.hide_in_footer != true %}
@@ -14,11 +14,23 @@
         {% endif %}
         {% endfor %}
       </ul>
-    </div>
+  </section>
 
-    <div class="site-contact">
+    <section class="featured-posts">
 
-      <p><strong>Contacto</strong></p>
+      <div class="section-name">Artículos destacados</div>
+      <ul class="pages">
+        {% for post in site.posts %}
+        {% if post.featured %}
+          <li class="nav-link"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        {% endif %}
+        {% endfor %}
+      </ul>
+  </section>
+
+    <section class="site-contact">
+
+      <div class="section-name">Contacto</div>
       <ul class="social-media-list">
         <li>
           <a href="mailto:{{ site.email }}">
@@ -39,12 +51,7 @@
         {% endfor %}
 
       </ul>
-    </div>
-
-    <div class="site-signature">
-      <p class="rss-subscribe text"><strong>Suscríbete <a href="{{ "/feed.xml" | prepend: site.baseurl }}">vía RSS</a></strong></p>
-      <p class="text">{{ site.description }}</p>
-    </div>
+  </section>
 
   </div>
 
