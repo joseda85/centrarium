@@ -3,13 +3,27 @@ layout: default
 ---
 <div class="post">
 
-<div class="post-header-container {% if page.cover %}has-cover{% endif %}" {% if page.cover %}style="background-image: url({{ page.cover | prepend: site.baseurl }});"{% endif %}>
-  <div class="scrim {% if page.cover %}has-cover{% endif %}">
-    <header class="post-header">
-      <h1 class="title">{{ page.title }}</h1>
-      <p class="info">Escrito por <strong>{{ page.author }}</strong></p>
-    </header>
-  </div>
+<div class="post-header-container">
+    <h1 class="title">{{ page.title }}</h1>
+
+    <div class="page-divider">
+        <div class="two"></div>
+    </div>
+
+    {% if page.cover %}
+        <div class="post-cover">
+            <img src="{{ page.cover | prepend: site.baseurl }}"
+
+            {% if page.cover_alt %}
+                alt="{{ page.cover_alt }}"
+            {% endif %}
+
+            {% if page.cover_title %}
+                title="{{ page.cover_title }}"
+            {% endif %}
+            >
+        </div>
+    {% endif %}
 </div>
 
 <div class="wrapper">

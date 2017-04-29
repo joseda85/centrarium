@@ -267,8 +267,21 @@ pre code.hljs {
 			margin-bottom: 1em;
 		}
 		.post-header-container {
-			.scrim {
-				padding: 2em 1em 1em 1em;
+			h1 {
+				@include media ($tablet) {
+					font-size: 2em;
+				}
+
+				font-size: 1.5em;
+				margin: 1em auto 0.3em;
+			}
+
+			.post-cover {
+				@include media ($tablet) {
+					width: 60%;
+				}
+				width: 80%;
+				margin: auto;
 			}
 		}
 		.post-meta {
@@ -303,9 +316,6 @@ pre code.hljs {
 				text-decoration: none;
 			}
 		}
-		.disqus {
-			@include span-columns(12);
-		}
 		.post-navigation {
 			font-size: 0.9em;
 			display: block;
@@ -329,7 +339,7 @@ pre code.hljs {
 	*	Pages
 	*/
 	.page {
-		.post-header {
+		.page-header {
 			padding: 0.5em 1em 1em 1em;
 			text-align: center;
 		}
