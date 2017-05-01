@@ -2,6 +2,8 @@
 layout: page
 title: Sobre mí
 permalink: /sobre-mi/
+title_head: Joseda Barrios - desarrollador web especializado en Laravel
+meta_description: "Soy un desarrollador web PHP, especializado en Laravel. Me apasionan la tecnología, la programación y los podcasts. Empecé a dedicarme a la química, pero con el tiempo descubrí mi verdadera vocación en la programación. En esta web tengo un blog en el que hablo de programación, Linux y productividad"
 ---
 
 ## Versión corta

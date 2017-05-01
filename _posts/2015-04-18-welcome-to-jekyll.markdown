@@ -3,8 +3,12 @@ layout: post
 title:  "Jekyll!"
 date:   2017-03-18 08:43:5
 cover:  "/assets/instacode.png"
+cover_alt: "Imagen alternativa"
+cover_title: "titulo de la imagen"
 permalink: "/blog/wellcome-to-my-site/"
 excerpt: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
+title_head: Artículo de prueba
+meta_description: "Esto es un artículo de prueba, para ver como se comportan las propiedades SEO que acabo de implementar para jekyll"
 featured: true
 ---
 
