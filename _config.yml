@@ -9,6 +9,8 @@ plugins_dir: _plugins
 
 exclude:
   - "/vendor/"
+  - "LICENSE.md"
+  - "circle.yml"
 
 # Site settings
 title: Joseda Barrios
