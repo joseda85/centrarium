@@ -13,10 +13,11 @@ layout: default
 
     <div class="wrapper">
       <div class="home-text">
-        Si no sabes por donde empezar, te sugiero que eches un vistazo al <a href="{{ "/blog/archivo" | prepend: baseurl}}">listado completo de artículos</a> o a mis artículos más destacados:
+        <p>¡Bienvenido! Me llamo <strong>Joseda</strong> y soy <strong>desarrollador web</strong>. También me considero un apasionado de la tecnología, Linux y de los podcasts. En esta web te contaré cómo sacarle partido al sistema operativo del pingüino.</p>
+        <hr>
+        <p>Si no sabes por donde empezar, te sugiero que eches un vistazo al <a href="{{ "/blog/archivo" | prepend: baseurl}}">listado completo de artículos</a> o a mis artículos más destacados:</p>
       </div>
 
-      <hr>
       <ul class="post-list">
       {% for post in site.posts %}
           {% if post.featured %}
