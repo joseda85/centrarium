@@ -12,10 +12,26 @@ layout: default
     </div>
 
     <div class="wrapper">
-        <p style="font-size:40px;text-align:center;">
-            <i class="fa fa-wrench"></i>
-            EN CONSTRUCCIÓN
-            <i class="fa fa-wrench"></i>
-        </p>
+      <div class="home-text">
+        Si no sabes por donde empezar, te sugiero que eches un vistazo al <a href="{{ "/blog/archivo" | prepend: baseurl}}">listado completo de artículos</a> o a mis artículos más destacados:
+      </div>
+
+      <hr>
+      <ul class="post-list">
+      {% for post in site.posts %}
+          {% if post.featured %}
+            <li>
+              <h2>
+                <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+              </h2>
+              <section class="post-excerpt" itemprop="description">
+                <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+              </section>
+            </li>
+
+            <hr>
+          {% endif %}
+        {% endfor %}
+      </ul>
     </div>
 </div>

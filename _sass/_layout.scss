@@ -201,7 +201,17 @@ pre code.hljs {
 		padding: 1em;
 	}
 	/*
-	*	index.html
+	*	Home
+	*/
+	.home-text {
+		padding: 10px;
+		margin: 10px auto 0;
+		font-size: 1.2em;
+		text-align: center;
+	}
+
+	/*
+	*	Blog
 	*/
 	.post-list {
 		padding-top: 1em !important;
