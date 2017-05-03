@@ -1,7 +1,6 @@
 # External gems
 # See http://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html for making `jekyll archives` work.
 gems:
-#  - jekyll-archives # Sorry, not GitHub pages friendly!
   - jekyll-sitemap
   - jekyll-paginate
 
@@ -11,6 +10,9 @@ exclude:
   - "/vendor/"
   - "LICENSE.md"
   - "circle.yml"
+  - "gulpfile.js"
+  - "node_modules"
+  - "Gemfile*"
 
 # Site settings
 title: Joseda Barrios
@@ -120,3 +122,6 @@ protocols:
     os_repo: "https://github.com/josedabm/josedabmcom"
     os_rcs_type: "git"
     os_src: "git@github.com:josedabm/josedabmcom.git"
+
+sass:
+    style: compressed
