@@ -6,12 +6,12 @@ title_head: Joseda Barrios - desarrollador web especializado en Laravel
 meta_description: "Soy un desarrollador web PHP, especializado en Laravel. Me apasionan la tecnología, la programación y los podcasts. Empecé a dedicarme a la química, pero con el tiempo descubrí mi verdadera vocación en la programación. En esta web tengo un blog en el que hablo de programación, Linux y productividad"
 ---
 
+<img src="{{ site.baseurl }}/img/joseda-barrios.jpg" title="Sí, este soy yo ;)" alt="Foto de perfil" class="profile">
+
 ## Versión corta
-¡Hola! Me llamo José David, pero puedes llamarme Joseda. Soy un **desarrollador web PHP**, especializado en **Laravel**. Me apasionan la tecnología, la programación y los podcasts. Empecé a dedicarme a la química, pero con el tiempo descubrí mi verdadera vocación en la programación. En esta web tengo un blog en el que hablo de **programación**, **Linux** y **productividad**.
+¡Hola! Me llamo José David, pero puedes llamarme Joseda. Soy un **desarrollador web PHP**, especializado en **Laravel**. Me apasionan la tecnología, la programación y los podcasts. Empecé a dedicarme a la química, pero con el tiempo descubrí mi verdadera vocación en la programación. En esta web tengo un [blog]({{ site.baseurl }}/blog/) en el que hablo de **programación**, **Linux** y **productividad**.
 
 _**¡Espero que lo disfrutes!**_
-
-<img src="{{ site.baseurl }}/assets/profile-placeholder.gif" title="Sí, este soy yo ;)" alt="Foto de perfil" class="profile">
 
 ## Versión larga
 
