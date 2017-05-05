@@ -51,7 +51,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -68,32 +68,34 @@
        x="0"
        y="270.54166" />
     <g
-       id="g4667"
-       transform="translate(-2.8028931e-6,2.6458334)">
+       id="g4608">
       <g
-         transform="translate(-8.3248264,20.97768)"
-         id="g4554">
-        <rect
-           style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.1317465;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect4487"
-           width="17.859375"
-           height="10.772322"
-           x="11.150297"
-           y="257.40698" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:1.03486907px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.05543941"
-           x="11.526224"
-           y="258.49142"
-           id="text4519"><tspan
-             sodipodi:role="line"
-             id="tspan4517"
-             x="11.526224"
+         id="g4575">
+        <g
+           id="g4554"
+           transform="translate(-8.3248292,23.623513)">
+          <rect
+             y="257.40698"
+             x="11.150297"
+             height="10.772322"
+             width="17.859375"
+             id="rect4487"
+             style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.1317465;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <text
+             id="text4519"
              y="258.49142"
-             style="fill:#ffffff;stroke-width:0.05543941">&gt;_</tspan></text>
+             x="11.526224"
+             style="font-style:normal;font-weight:normal;font-size:1.03486907px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.05543941"
+             xml:space="preserve"><tspan
+               style="fill:#ffffff;stroke-width:0.05543941"
+               y="258.49142"
+               x="11.526224"
+               id="tspan4517"
+               sodipodi:role="line">&gt;_</tspan></text>
+        </g>
       </g>
       <g
-         transform="translate(0.14184788,20.97768)"
+         transform="translate(0.14184508,23.623513)"
          id="g4562">
         <rect
            y="257.40698"
@@ -133,7 +135,7 @@
            y="262.62775" />
       </g>
       <g
-         transform="translate(8.0793467,20.977672)"
+         transform="translate(8.0793439,23.623505)"
          id="g4573">
         <rect
            style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.1317465;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -192,50 +194,48 @@
            transform="rotate(90)" />
       </g>
       <g
-         transform="translate(11.982321,-10.919344)"
-         id="g4607">
-        <text
-           xml:space="preserve"
+         id="g4569">
+        <g
+           aria-label="4"
+           transform="scale(1.4914724,0.67047839)"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.36621571px;line-height:1.25;font-family:Webdings;-inkscape-font-specification:Webdings;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.39461872"
-           x="6.3445134"
-           y="441.82419"
-           id="text4600"
-           transform="scale(1.4914724,0.67047839)"><tspan
-             sodipodi:role="line"
-             id="tspan4598"
-             x="6.3445134"
-             y="441.82419"
-             style="fill:#ffffff;fill-opacity:1;stroke-width:0.39461872">4</tspan></text>
+           id="text4600">
+          <path
+             d="m 19.442672,427.18252 -2.301942,2.30195 v -4.60389 z"
+             style="fill:#ffffff;fill-opacity:1;stroke-width:0.39461872"
+             id="path4555" />
+        </g>
         <rect
            style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.10960887;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            id="rect4602"
            width="3.2204967"
            height="1.1810992"
-           x="10.575635"
-           y="294.09961" />
+           x="22.557953"
+           y="285.82611" />
       </g>
       <g
          id="g4615"
-         transform="translate(40.028172,-10.919344)">
-        <text
-           transform="scale(1.4914724,0.67047839)"
-           id="text4611"
-           y="441.82419"
-           x="6.3445134"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.36621571px;line-height:1.25;font-family:Webdings;-inkscape-font-specification:Webdings;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.39461872"
-           xml:space="preserve"><tspan
-             style="fill:#ffffff;fill-opacity:1;stroke-width:0.39461872"
-             y="441.82419"
-             x="6.3445134"
-             id="tspan4609"
-             sodipodi:role="line">4</tspan></text>
-        <rect
-           y="294.09961"
-           x="10.575635"
-           height="1.1810992"
-           width="3.2204967"
-           id="rect4613"
-           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.10960887;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         transform="translate(40.028169,-8.2735106)">
+        <g
+           id="g4564">
+          <g
+             aria-label="4"
+             transform="scale(1.4914724,0.67047839)"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.36621571px;line-height:1.25;font-family:Webdings;-inkscape-font-specification:Webdings;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.39461872"
+             id="text4611">
+            <path
+               d="m 11.408787,439.52225 -2.3019427,2.30194 v -4.60389 z"
+               style="fill:#ffffff;fill-opacity:1;stroke-width:0.39461872"
+               id="path4558" />
+          </g>
+          <rect
+             style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.10960887;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect4613"
+             width="3.2204967"
+             height="1.1810992"
+             x="10.575635"
+             y="294.09961" />
+        </g>
       </g>
     </g>
     <text
