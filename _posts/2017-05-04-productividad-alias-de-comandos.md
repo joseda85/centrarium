@@ -8,6 +8,7 @@ cover_title: Alias de comandos
 permalink: "/blog/linux-alias-de-comandos/"
 excerpt: "Los alias de comandos son nombres cortos que asignas a otros comandos, normalmente más largos. Aprende a registrar tus propios alias y a usar esta funcionalidad en este artículo."
 featured: true
+featured_404: true
 ---
 
 ## El problema: comandos indescifrables

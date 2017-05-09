@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<div class="home">
+    <div class="site-header-container {% if site.cover %}has-cover{% endif %}" {% if site.cover %}style="background-image: url({{ site.baseurl }}/img/404.svg);background-position: right top;"{% endif %}>
+      <div class="scrim {% if site.cover %}has-cover{% endif %}">
+        <header class="site-header">
+          <h1 class="title">Página no encontrada</h1>
+          {% if site.subtitle %}<p class="subtitle">La página solicitada no existe</p>{% endif %}
+        </header>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="home-text">
+        <p>¡Lo siento! La página que estabas buscando no existe, pero quizás te puede interesar alguno de los siguientes artículos:</p>
+      </div>
+
+      <ul class="post-list">
+      {% for post in site.posts %}
+          {% if post.featured_404 %}
+            <li>
+              <h2>
+                <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+              </h2>
+              <section class="post-excerpt" itemprop="description">
+                <p>
+                  {% if post.excerpt %}
+                    {{ post.excerpt }}
+                  {% else %}
+                    {{ post.content | strip_html | truncatewords: 50 }}
+                  {% endif %}
+                </p>
+              </section>
+            </li>
+
+            <hr>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+</div>
