@@ -96,9 +96,9 @@ alias ....="cd../../.."
 
 ## Extras
 
-- Si quieres ver más ejemplos de alias, te sugiero que eches un vistazo a mi fichero [.bashrc](https://gist.github.com/josedabm/dca79f8a86b3291014eaf258c805bab2), que lo tengo guardado en github gist. Lo voy actualizando de vez en cuando.
+-Si quieres ver más ejemplos de alias, te sugiero que eches un vistazo a mi fichero [.bashrc](https://gist.github.com/josedabm/dca79f8a86b3291014eaf258c805bab2), que lo tengo guardado en github gist. Lo voy actualizando de vez en cuando.
 
-- Los alias son bastante útiles, pero hay que ser prudente con su uso. Abstraerse demasiado de muchos comandos puede ser contraproducente.
+-Los alias son bastante útiles, pero hay que ser prudente con su uso. Abstraerse demasiado de muchos comandos puede ser contraproducente.
 
 ## Conclusión
 
