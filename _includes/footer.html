@@ -33,14 +33,14 @@
       <div class="section-name">¿Donde encontrarme?</div>
       <ul class="social-media-list">
         <li>
-          <a href="mailto:{{ site.email }}">
+          <a href="mailto:{{ site.email }} target="_blank"">
             <i class="fa fa-envelope"></i>
             <span class="username">{{ site.email }}</span>
           </a>
         </li>
 
         <li>
-          <a href="{{ "/feed.xml" | prepend: baseurl }}">
+          <a href="{{ "/feed.xml" | prepend: baseurl }}" target="_blank">
             <i class="fa fa-rss"></i>
             <span class="username">Feed/RSS</span>
           </a>
@@ -49,7 +49,7 @@
         {% for social in site.social %}
           {% if social.url != null %}
           <li>
-            <a href="{{ social.url }}" title="{{ social.desc }}">
+            <a href="{{ social.url }}" title="{{ social.desc }}" target="_blank">
               <i class="fa fa-{{ social.icon }}"></i>
               <span class="username">{% if social.username %}{{ social.username }}{% else %}{{ social.name }}{% endif %}</span>
             </a>
