@@ -108,5 +108,13 @@ social:
     desc: Conecta conmigo en Linkedin
     share: true
 
+# Social sharing protocols
+# These are for automatically generating sharing metadata for FB and Twitter
+# OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
+protocols:
+    os_repo: "https://github.com/josedabm/josedabmcom"
+    os_rcs_type: "git"
+    os_src: "git@github.com:josedabm/josedabmcom.git"
+
 sass:
     style: compressed
