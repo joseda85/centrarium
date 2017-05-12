@@ -5,7 +5,8 @@ date:   2017-05-04 11:37
 cover:  "/img/portadas-blog/alias.svg"
 cover_alt: Alias de comandos
 cover_title: Alias de comandos
-image_mime_type: image/svg+xml
+og_image: /img/og/alias.png
+image_mime_type: image/png
 permalink: "/blog/linux-alias-de-comandos/"
 excerpt: "Los alias de comandos son nombres cortos que asignas a otros comandos, normalmente más largos. Aprende a registrar tus propios alias y a usar esta funcionalidad en este artículo."
 featured: true

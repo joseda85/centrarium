@@ -5,7 +5,8 @@ date:   2017-05-05 13:27
 cover:  "/img/portadas-blog/tmuxinator.svg"
 cover_alt: tmuxinator
 cover_title: tmuxinator
-image_mime_type: image/svg+xml
+og_image: /img/og/tmuxinator.png
+image_mime_type: image/png
 permalink: "/blog/tmuxinator-plantillas-para-tmux/"
 excerpt: "Tmux tiene sus limitaciones. Cada vez que quieres usarlo tienes que crear el layout desde cero. Con tmuxinator puedes crear plantillas para tmux y lanzarlas con un solo comando. Lee el artículo para saber cómo."
 featured: true

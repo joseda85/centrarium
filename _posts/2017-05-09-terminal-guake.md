@@ -5,7 +5,8 @@ date:   2017-05-09 06:37
 cover:  "/img/portadas-blog/guake.svg"
 cover_alt: Guake
 cover_title: Terminal Guake
-image_mime_type: image/svg+xml
+og_image: /img/og/guake.png
+image_mime_type: image/png
 permalink: "/blog/terminal-guake/"
 excerpt: "Guake es una terminal distinta. Lo que le diferencia con respecto a otras terminales es que nunca se cierra, y siempre se encontrará disponible en un segundo plano para poder utilizarla. Lee este artículo para descubrir por qué es tan buena para la productividad"
 featured: true
