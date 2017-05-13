@@ -10,8 +10,10 @@ meta_description: "Si tienes alguna duda, sugerencia para mi web, algún tema qu
 <hr>
 
 <fieldset>
-  <form id="contact-form" method="post" action="https://formspree.io/joseda@josedabm.com">
+  <form id="contact-form" method="post" action="https://getsimpleform.com/messages?form_api_token=91f676bd81bef1b778fde1ed745fceb4">
     <h2>Formulario de contacto</h2>
+
+    <input type='hidden' name='redirect_to' value='http://josedabm.com/mensaje-enviado/' />
 
     <p><label for="name">Nombre:</label>
     <input type="text" id="name" required /></p>
@@ -23,8 +25,8 @@ meta_description: "Si tienes alguna duda, sugerencia para mi web, algún tema qu
     <p><label for="message">¿Qué me quieres contar?</label>
     <textarea id="message" required></textarea></p>
 
-    <p><input type="submit" value="Enviar" /></p>
-
     <div class="g-recaptcha" data-sitekey="6LeJPiEUAAAAADAUVlYiAyXMgpZ86_t8UvxlbfR6"></div>
+
+    <p><input type="submit" value="Enviar" /></p>
   </form>
 </fieldset>
