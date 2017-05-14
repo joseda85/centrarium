@@ -10,22 +10,23 @@ meta_description: "Si tienes alguna duda, sugerencia para mi web, algún tema qu
 <hr>
 
 <fieldset>
-  <form id="contact-form" method="post" action="https://getsimpleform.com/messages?form_api_token=91f676bd81bef1b778fde1ed745fceb4">
+  <form id="contact-form" method="post" action="https://formspree.io/joseda@josedabm.com">
     <h2>Formulario de contacto</h2>
 
     <input type='hidden' name='redirect_to' value='http://josedabm.com/mensaje-enviado/' />
 
     <p><label for="name">Nombre:</label>
-    <input type="text" id="name" required /></p>
+    <input type="text" id="name" name="name" required /></p>
 
-    <p><label for="mail">Email:</label>
-    <input type="email" id="mail" required /></p>
+    <p><label for="email">Email:</label>
+    <input type="email" id="email" name="email" required /></p>
 
+    <input type="hidden" name="_next" value="{{ site.baseurl | prepend: site.url }}/mensaje-enviado" />
+    <input type="text" name="_gotcha" style="display:none" />
+    <input type="hidden" name="_subject" value="Mensaje del formulario de contacto" />
 
     <p><label for="message">¿Qué me quieres contar?</label>
     <textarea id="message" required></textarea></p>
-
-    <div class="g-recaptcha" data-sitekey="6LeJPiEUAAAAADAUVlYiAyXMgpZ86_t8UvxlbfR6"></div>
 
     <p><input type="submit" value="Enviar" /></p>
   </form>
