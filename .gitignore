@@ -11,5 +11,4 @@ _site
 vendor/
 
 # Node and gulp
-gulpfile.js
 node_modules

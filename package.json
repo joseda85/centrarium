@@ -1,0 +1,30 @@
+{
+  "name": "josedabm.com",
+  "version": "1.0.0",
+  "description": "Un blog personal construído con Jekyll y basado en el theme [Centrarium](https://github.com/bencentra/centrarium)",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^2.1.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-ignore": "^2.0.2",
+    "lodash": "^4.17.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseda85/josedabmcom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joseda85/josedabmcom/issues"
+  },
+  "homepage": "https://github.com/joseda85/josedabmcom#readme"
+}
